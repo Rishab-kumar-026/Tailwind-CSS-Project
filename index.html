@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="home-container relative bg-white-300 py-4 w-screen h-screen">
+        <div class="nav-bar flex items-center justify-between shadow-md px-6 pb-2 mb-20 xl:w-screen">
+            <h2 class="text-pink-500 text-xl font-semibold mr-auto"><i
+                    class="ri-home-2-fill text-pink-500 mr-1 text-2xl"></i>Home.
+            </h2>
+            <div
+                class="nav-links hidden w-[30vw] md:block w-[30vw] text-right text-lg font-semibold  lg:block w-[40vw] text-right text-lg font-semibold xl:block w-[50vw] text-right text-lg font-semibold ">
+                <a href="#" class="mr-5 text-pink-500">Home</a>
+                <a href="#" class="mr-5 opacity-60">About</a>
+                <a href="#" class="mr-5 opacity-60">Skills</a>
+                <a href="#" class="mr-5 opacity-60">Contact</a>
+            </div>
+            <i class="ri-menu-line text-2xl text-pink-500 cursor-pointer md:hidden lg:hidden xl:hidden"></i>
+        </div>
+        <div class="main-container w-full h-[60vh] flex flex-col items-center justify-center gap-y-5 px-5">
+            <img src="images/profile.jpeg" alt="profile"
+                class="w-32 h-32 p-1 object-cover rounded-full border-4 border-pink-500">
+            <h3 class="text-2xl font-semibold text-center md:text-2xl lg:text-3xl xl:4xl">Hii!! I'm <span
+                    class="text-pink-500 font-bold">Rishab
+                    Kumar</span></h3>
+            <p
+                class="font-semibold text-center opacity-80 leading-6 w-[100%] tracking-tighter md:w-[80vw] text-xl lg:w[60vw] xl:w-[50vw]">
+                A Learning <span class="text-sky-800">Web
+                    Developer</span> currently pursuing my Bachelor's of Computer Applications at London Management
+                Academy, Hyderabad, India...</p>
+
+            <div class="social-media w-[70vw] p-4  flex items-center justify-center gap-3 my-4">
+                <a href="https://www.instagram.com/tommy_shelby_026/" target="_blank"
+                    class="w-50 h-50 rounded-full border-2 border-pink-400 px-2 py-1 flex items-center justify-center"><i
+                        class="ri-instagram-line text-3xl text-pink-500"></i></a>
+                <a href="https://www.linkedin.com/in/rishab-kumar-singh-parmar-068611303/" target="_blank"
+                    class="w-50 h-50 rounded-full border-2 border-pink-400 px-2 py-1 flex items-center justify-center"><i
+                        class="ri-linkedin-fill text-3xl text-pink-500"></i></a>
+                <a href="https://github.com/Rishab-kumar-026" target="_blank"
+                    class="w-50 h-50 rounded-full border-2 border-pink-400 px-2 py-1 flex items-center justify-center"><i
+                        class="ri-github-fill text-3xl text-pink-500"></i></a>
+                <a href="https://twitter.com/RishabKumar_026" target="_blank"
+                    class="w-50 h-50 rounded-full border-2 border-pink-400 px-2 py-1 flex items-center justify-center"><i
+                        class="ri-twitter-fill text-3xl text-pink-500"></i></a>
+            </div>
+            <button class="bg-pink-500 px-4 py-2 rounded-xl text-xl text-white font-semibold">Read More</button>
+        </div>
+        <marquee direction="left" class="text-md text-white bg-pink-500 absolute bottom-0 px-2 py-1">Copyright &copy; |
+            All rights reserved 2024 | Designed by Rishab Kumar |</marquee>
+    </div>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
